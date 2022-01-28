@@ -1,0 +1,682 @@
+2020/09/16 09:41:20 INFO   we compile UneBatchProcess
+2020/09/16 09:41:20 INFO   Checking /home/redchannel/entorno/redchannel/build_scripts/redchannel.env.HID1
+2020/09/16 09:41:20 INFO   This is the ART_PAQ we will generate: UneBatchProcess
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO   make.sh 1.0 ---------------------------------------------------------------------------------------
+2020/09/16 09:41:20 INFO    Application: redchannel
+2020/09/16 09:41:20 INFO    Entorno: HID1
+2020/09/16 09:41:20 INFO    Package: 
+2020/09/16 09:41:20 INFO    Build Path: 
+2020/09/16 09:41:20 INFO    Artifact List: UneBatchProcess
+2020/09/16 09:41:20 INFO    Artifact: UneBatchProcess
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO    Changing current path to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO   
+2020/09/16 09:41:20 INFO   CLASSPATH= 
+2020/09/16 09:41:20 INFO      Running ant  -propertyfile build.properties -file build.xml 
+2020/09/16 09:41:20 INFO   UneBatchProcess HID1
+2020/09/16 09:41:20 INFO        Running ant  -propertyfile build.properties -file build.xml 
+Buildfile: /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/build.xml
+
+resolve:
+[ivy:retrieve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/redchannel/.ivy2/ivysettings-public.xml
+[ivy:retrieve] :: resolving dependencies :: es.indra#uneBatchProcess;working@es233ahr.es.sedc.internal.vodafone.com
+[ivy:retrieve]  confs: [build]
+[ivy:retrieve]  found es.indra#i-sales-base;1.0.4 in CanalOnline
+[ivy:retrieve]  found es.indra#i-sales-calendar;1.0.4 in CanalOnline
+[ivy:retrieve]  found es.indra#i-sales-menu;1.0.3 in CanalOnline
+[ivy:retrieve]  found antlr#antlr;2.7.7 in central
+[ivy:retrieve]  found aopalliance#aopalliance;1.0 in central
+[ivy:retrieve]  found dom4j#dom4j;1.6.1 in central
+[ivy:retrieve]  found org.hibernate#hibernate-commons-annotations;4.0.2.Final in CanalOnline
+[ivy:retrieve]  found org.hibernate#hibernate-core;4.2.8.Final in CanalOnline
+[ivy:retrieve]  found org.hibernate#hibernate-entitymanager;4.2.8.Final in CanalOnline
+[ivy:retrieve]  found org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final in central
+[ivy:retrieve]  found asm#asm;3.1 in central
+[ivy:retrieve]  found org.aspectj#aspectjweaver;1.6.11 in CanalOnline
+[ivy:retrieve]  found org.apache.axis#axis;1.4 in central
+[ivy:retrieve]  found org.castor#castor;1.1 in CanalOnline
+[ivy:retrieve]  found commons-beanutils#commons-beanutils;1.8.3 in central
+[ivy:retrieve]  found commons-codec#commons-codec;1.9 in CanalOnline
+[ivy:retrieve]  found commons-discovery#commons-discovery;0.2 in central
+[ivy:retrieve]  found commons-fileupload#commons-fileupload;1.3.1 in CanalOnline
+[ivy:retrieve]  found commons-io#commons-io;2.4 in central
+[ivy:retrieve]  found commons-lang#commons-lang;2.6 in central
+[ivy:retrieve]  found commons-logging#commons-logging;1.1.1 in central
+[ivy:retrieve]  found commons-configuration#commons-configuration;1.9 in central
+[ivy:retrieve]  found javax.activation#activation;1.1 in central
+[ivy:retrieve]  found javax.inject#javax.inject;1 in central
+[ivy:retrieve]  found javax.xml#jaxrpc;1.1 in CanalOnline
+[ivy:retrieve]  found org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final in CanalOnline
+[ivy:retrieve]  found com.jcraft#jsch;0.1.50 in CanalOnline
+[ivy:retrieve]  found com.oracle#ojdbc6;11.2.0.3.0 in prxy
+[ivy:retrieve]  found javax.xml.soap#saaj;1.2 in CanalOnline
+[ivy:retrieve]  found org.slf4j#slf4j-api;1.6.1 in central
+[ivy:retrieve]  found org.springframework#spring-aop;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-aspects;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-beans;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-build-src;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-context;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-core;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-expression;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-framework-bom;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-instrument;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-instrument-tomcat;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-jdbc;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-jms;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-orm;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-oxm;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework.security#spring-security-acl;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-config;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-core;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-taglibs;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-web;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-test;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-tx;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-web;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-webmvc;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-webmvc-portlet;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-websocket;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found log4j#log4j;1.2.17 in central
+[ivy:retrieve]  found org.apache.commons#commons-compress;1.8.1 in CanalOnline
+[ivy:retrieve]  found org.jboss.logging#jboss-logging;3.1.0.CR2 in central
+[ivy:retrieve]  found org.codehaus.jettison#jettison;1.1 in CanalOnline
+[ivy:retrieve]  found javassist#javassist;3.18.1 in CanalOnline
+[ivy:retrieve]  found es.indra.integrations#UneBackEndIntegrations;1.0.174 in CanalOnline
+[ivy:retrieve]  found junit#junit;4.10 in central
+[ivy:retrieve]  found javax.servlet#javax.servlet_2.1.0.0_3;0 in CanalOnline
+[ivy:retrieve]  found freemarker#freemarker;2.3.9 in CanalOnline
+[ivy:retrieve]  found es.indra#xmlparserv2;1.0 in CanalOnline
+[ivy:retrieve]  found es.indra#xdb6;1.0 in CanalOnline
+[ivy:retrieve] downloading http://31.4.249.63:8080/nexus/content/repositories/CanalOnline/es/indra/integrations/UneBackEndIntegrations/1.0.174/UneBackEndIntegrations-1.0.174.jar ...
+[ivy:retrieve] .......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... (7555kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve]  [SUCCESSFUL ] es.indra.integrations#UneBackEndIntegrations;1.0.174!UneBackEndIntegrations.jar (244ms)
+[ivy:retrieve] :: resolution report :: resolve 12464ms :: artifacts dl 338ms
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |       build      |   66  |   1   |   0   |   0   ||   66  |   1   |
+        ---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: es.indra#uneBatchProcess
+[ivy:retrieve]  confs: [build]
+[ivy:retrieve]  66 artifacts copied, 0 already retrieved (34747kB/1253ms)
+
+init:
+   [delete] Deleting directory /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar
+    [mkdir] Created dir: /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar
+    [mkdir] Created dir: /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/classes
+    [mkdir] Created dir: /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar/lib
+
+copyScripts:
+     [copy] Copying 2 files to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar
+
+copyConfig:
+     [copy] Copying 1 file to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar
+     [copy] Copying 1 file to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar
+     [copy] Copying 1 file to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar
+
+copyLibraries:
+     [copy] Copying 66 files to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/jar/lib
+
+Generar_Entrega:
+
+resolve:
+[ivy:retrieve] :: loading settings :: file = /home/redchannel/.ivy2/ivysettings-public.xml
+[ivy:retrieve] :: resolving dependencies :: es.indra#uneBatchProcess;working@es233ahr.es.sedc.internal.vodafone.com
+[ivy:retrieve]  confs: [build]
+[ivy:retrieve]  found es.indra#i-sales-base;1.0.4 in CanalOnline
+[ivy:retrieve]  found es.indra#i-sales-calendar;1.0.4 in CanalOnline
+[ivy:retrieve]  found es.indra#i-sales-menu;1.0.3 in CanalOnline
+[ivy:retrieve]  found antlr#antlr;2.7.7 in central
+[ivy:retrieve]  found aopalliance#aopalliance;1.0 in central
+[ivy:retrieve]  found dom4j#dom4j;1.6.1 in central
+[ivy:retrieve]  found org.hibernate#hibernate-commons-annotations;4.0.2.Final in CanalOnline
+[ivy:retrieve]  found org.hibernate#hibernate-core;4.2.8.Final in CanalOnline
+[ivy:retrieve]  found org.hibernate#hibernate-entitymanager;4.2.8.Final in CanalOnline
+[ivy:retrieve]  found org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final in central
+[ivy:retrieve]  found asm#asm;3.1 in central
+[ivy:retrieve]  found org.aspectj#aspectjweaver;1.6.11 in CanalOnline
+[ivy:retrieve]  found org.apache.axis#axis;1.4 in central
+[ivy:retrieve]  found org.castor#castor;1.1 in CanalOnline
+[ivy:retrieve]  found commons-beanutils#commons-beanutils;1.8.3 in central
+[ivy:retrieve]  found commons-codec#commons-codec;1.9 in CanalOnline
+[ivy:retrieve]  found commons-discovery#commons-discovery;0.2 in central
+[ivy:retrieve]  found commons-fileupload#commons-fileupload;1.3.1 in CanalOnline
+[ivy:retrieve]  found commons-io#commons-io;2.4 in central
+[ivy:retrieve]  found commons-lang#commons-lang;2.6 in central
+[ivy:retrieve]  found commons-logging#commons-logging;1.1.1 in central
+[ivy:retrieve]  found commons-configuration#commons-configuration;1.9 in central
+[ivy:retrieve]  found javax.activation#activation;1.1 in central
+[ivy:retrieve]  found javax.inject#javax.inject;1 in central
+[ivy:retrieve]  found javax.xml#jaxrpc;1.1 in CanalOnline
+[ivy:retrieve]  found org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final in CanalOnline
+[ivy:retrieve]  found com.jcraft#jsch;0.1.50 in CanalOnline
+[ivy:retrieve]  found com.oracle#ojdbc6;11.2.0.3.0 in prxy
+[ivy:retrieve]  found javax.xml.soap#saaj;1.2 in CanalOnline
+[ivy:retrieve]  found org.slf4j#slf4j-api;1.6.1 in central
+[ivy:retrieve]  found org.springframework#spring-aop;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-aspects;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-beans;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-build-src;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-context;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-core;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-expression;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-framework-bom;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-instrument;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-instrument-tomcat;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-jdbc;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-jms;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-orm;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework#spring-oxm;4.0.0.RELEASE in central
+[ivy:retrieve]  found org.springframework.security#spring-security-acl;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-config;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-core;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-taglibs;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework.security#spring-security-web;4.0.0.M1 in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-test;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-tx;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-web;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-webmvc;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-webmvc-portlet;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found org.springframework#spring-websocket;4.0.0.RELEASE in CanalOnline
+[ivy:retrieve]  found log4j#log4j;1.2.17 in central
+[ivy:retrieve]  found org.apache.commons#commons-compress;1.8.1 in CanalOnline
+[ivy:retrieve]  found org.jboss.logging#jboss-logging;3.1.0.CR2 in central
+[ivy:retrieve]  found org.codehaus.jettison#jettison;1.1 in CanalOnline
+[ivy:retrieve]  found javassist#javassist;3.18.1 in CanalOnline
+[ivy:retrieve]  found es.indra.integrations#UneBackEndIntegrations;1.0.174 in CanalOnline
+[ivy:retrieve]  found junit#junit;4.10 in central
+[ivy:retrieve]  found javax.servlet#javax.servlet_2.1.0.0_3;0 in CanalOnline
+[ivy:retrieve]  found freemarker#freemarker;2.3.9 in CanalOnline
+[ivy:retrieve]  found es.indra#xmlparserv2;1.0 in CanalOnline
+[ivy:retrieve]  found es.indra#xdb6;1.0 in CanalOnline
+[ivy:retrieve] :: resolution report :: resolve 776ms :: artifacts dl 34ms
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |       build      |   66  |   0   |   0   |   0   ||   66  |   0   |
+        ---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: es.indra#uneBatchProcess
+[ivy:retrieve]  confs: [build]
+[ivy:retrieve]  0 artifacts copied, 66 already retrieved (0kB/49ms)
+
+compilaJarUneBatchProcess:
+    [javac] Compiling 69 source files to /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/compiled/classes
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:22: error: package org.apache.poi.ss.usermodel does not exist
+    [javac] import org.apache.poi.ss.usermodel.CellStyle;
+    [javac]                                   ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:23: error: package org.apache.poi.ss.usermodel does not exist
+    [javac] import org.apache.poi.ss.usermodel.Font;
+    [javac]                                   ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:24: error: package org.apache.poi.ss.usermodel does not exist
+    [javac] import org.apache.poi.ss.usermodel.IndexedColors;
+    [javac]                                   ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:25: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFCell;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:26: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:27: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFFont;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:28: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFRow;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:29: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFSheet;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:30: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:408: error: cannot find symbol
+    [javac]     private XSSFWorkbook crearHojaConCabecera(){
+    [javac]             ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:584: error: cannot find symbol
+    [javac]     private void addLinea(XSSFSheet sheet, String [] linea, int numLinea){
+    [javac]                           ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:595: error: cannot find symbol
+    [javac]     private void addResultado(XSSFSheet sheet, String resultado, String motivo, int linea){
+    [javac]                               ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:19: error: package org.apache.poi.ss.usermodel does not exist
+    [javac] import org.apache.poi.ss.usermodel.CellStyle;
+    [javac]                                   ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:20: error: package org.apache.poi.ss.usermodel does not exist
+    [javac] import org.apache.poi.ss.usermodel.Font;
+    [javac]                                   ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:21: error: package org.apache.poi.ss.usermodel does not exist
+    [javac] import org.apache.poi.ss.usermodel.IndexedColors;
+    [javac]                                   ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:22: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFCell;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:23: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:24: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFFont;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:25: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFRow;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:26: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFSheet;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:27: error: package org.apache.poi.xssf.usermodel does not exist
+    [javac] import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+    [javac]                                     ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:239: error: cannot find symbol
+    [javac]     private XSSFWorkbook crearHojaConCabecera(){
+    [javac]             ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:283: error: cannot find symbol
+    [javac]     private void addLinea(XSSFSheet sheet, String [] linea, int numLinea){
+    [javac]                           ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:294: error: cannot find symbol
+    [javac]     private void addResultado(XSSFSheet sheet, String resultado, String motivo, int linea){
+    [javac]                               ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/ivy/build/UneBackEndIntegrations.jar(es/indra/integrations/hibernate/bean/OportunidadesMicro.class): warning: Cannot find annotation method 'value()' in type 'JsonFilter': class file for org.codehaus.jackson.map.annotate.JsonFilter not found
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:152: error: cannot find symbol
+    [javac]                     XSSFWorkbook workbook = crearHojaConCabecera();
+    [javac]                     ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:153: error: cannot find symbol
+    [javac]                     XSSFSheet sheet = workbook.getSheetAt(0);
+    [javac]                     ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:409: error: cannot find symbol
+    [javac]             XSSFWorkbook wb =  new XSSFWorkbook();
+    [javac]             ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:409: error: cannot find symbol
+    [javac]             XSSFWorkbook wb =  new XSSFWorkbook();
+    [javac]                                    ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:411: error: cannot find symbol
+    [javac]             XSSFSheet sheet = wb.createSheet("Inventario Carga Oportunidades Micro");
+    [javac]             ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:412: error: cannot find symbol
+    [javac]             XSSFRow headerRow = sheet.createRow(0);
+    [javac]             ^
+    [javac]   symbol:   class XSSFRow
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:414: error: cannot find symbol
+    [javac]             XSSFCellStyle styleCabecera = wb.createCellStyle();
+    [javac]             ^
+    [javac]   symbol:   class XSSFCellStyle
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:415: error: package IndexedColors does not exist
+    [javac]             styleCabecera.setFillForegroundColor(IndexedColors.RED.getIndex());
+    [javac]                                                               ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:416: error: cannot find symbol
+    [javac]             styleCabecera.setFillPattern(CellStyle.SOLID_FOREGROUND);
+    [javac]                                          ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:417: error: cannot find symbol
+    [javac]             XSSFFont fontCabecera = wb.createFont();
+    [javac]             ^
+    [javac]   symbol:   class XSSFFont
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:420: error: cannot find symbol
+    [javac]             fontCabecera.setBoldweight(Font.BOLDWEIGHT_BOLD);
+    [javac]                                        ^
+    [javac]   symbol:   variable Font
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:421: error: package IndexedColors does not exist
+    [javac]             fontCabecera.setColor(IndexedColors.BLACK.getIndex());
+    [javac]                                                ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:423: error: cannot find symbol
+    [javac]             styleCabecera.setBorderBottom(CellStyle.BORDER_THICK);
+    [javac]                                           ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:424: error: cannot find symbol
+    [javac]             styleCabecera.setBorderLeft(CellStyle.BORDER_THICK);
+    [javac]                                         ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:425: error: cannot find symbol
+    [javac]             styleCabecera.setBorderRight(CellStyle.BORDER_THICK);
+    [javac]                                          ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:426: error: cannot find symbol
+    [javac]             styleCabecera.setBorderTop(CellStyle.BORDER_THICK);
+    [javac]                                        ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:428: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell0 = headerRow.createCell(0);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:432: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell1 = headerRow.createCell(1);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:436: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell2 = headerRow.createCell(2);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:440: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell3 = headerRow.createCell(3);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:444: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell4 = headerRow.createCell(4);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:448: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell5 = headerRow.createCell(5);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:452: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell6 = headerRow.createCell(6);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:456: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell7 = headerRow.createCell(7);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:460: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell8 = headerRow.createCell(8);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:464: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell9 = headerRow.createCell(9);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:468: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell10 = headerRow.createCell(10);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:472: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell11 = headerRow.createCell(11);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:476: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell12 = headerRow.createCell(12);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:480: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell13 = headerRow.createCell(13);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:484: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell14 = headerRow.createCell(14);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:488: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell15 = headerRow.createCell(15);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:492: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell16 = headerRow.createCell(16);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:496: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell17 = headerRow.createCell(17);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:500: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell18 = headerRow.createCell(18);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:504: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell19 = headerRow.createCell(19);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:508: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell20 = headerRow.createCell(20);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:512: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell21 = headerRow.createCell(21);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:516: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell22 = headerRow.createCell(22);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:520: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell23 = headerRow.createCell(23);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:524: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell24 = headerRow.createCell(24);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:528: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell25 = headerRow.createCell(25);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:532: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell26 = headerRow.createCell(26);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:536: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell27 = headerRow.createCell(27);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:540: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell28 = headerRow.createCell(28);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:544: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell29 = headerRow.createCell(29);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:548: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell30 = headerRow.createCell(30);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:552: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell31 = headerRow.createCell(31);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:556: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell32 = headerRow.createCell(32);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:560: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell33 = headerRow.createCell(33);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:564: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell34 = headerRow.createCell(34);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:568: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell35 = headerRow.createCell(35);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:572: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell36 = headerRow.createCell(36);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:576: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell37 = headerRow.createCell(37);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:586: error: cannot find symbol
+    [javac]             XSSFRow row = sheet.createRow(numLinea);
+    [javac]             ^
+    [javac]   symbol:   class XSSFRow
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:589: error: cannot find symbol
+    [javac]                             XSSFCell cell = row.createCell(i);
+    [javac]                             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:596: error: cannot find symbol
+    [javac]             XSSFRow row = sheet.getRow(linea);
+    [javac]             ^
+    [javac]   symbol:   class XSSFRow
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:597: error: cannot find symbol
+    [javac]             XSSFCell cellResultado = row.createCell(36);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java:599: error: cannot find symbol
+    [javac]             XSSFCell cellMotivo = row.createCell(37);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaCVMImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:132: error: cannot find symbol
+    [javac]                     XSSFWorkbook workbook = crearHojaConCabecera();
+    [javac]                     ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:133: error: cannot find symbol
+    [javac]                     XSSFSheet sheet = workbook.getSheetAt(0);
+    [javac]                     ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:240: error: cannot find symbol
+    [javac]             XSSFWorkbook wb =  new XSSFWorkbook();
+    [javac]             ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:240: error: cannot find symbol
+    [javac]             XSSFWorkbook wb =  new XSSFWorkbook();
+    [javac]                                    ^
+    [javac]   symbol:   class XSSFWorkbook
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:242: error: cannot find symbol
+    [javac]             XSSFSheet sheet = wb.createSheet("Inventario Carga Zona Geografica");
+    [javac]             ^
+    [javac]   symbol:   class XSSFSheet
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:243: error: cannot find symbol
+    [javac]             XSSFRow headerRow = sheet.createRow(0);
+    [javac]             ^
+    [javac]   symbol:   class XSSFRow
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:245: error: cannot find symbol
+    [javac]             XSSFCellStyle styleCabecera = wb.createCellStyle();
+    [javac]             ^
+    [javac]   symbol:   class XSSFCellStyle
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:246: error: package IndexedColors does not exist
+    [javac]             styleCabecera.setFillForegroundColor(IndexedColors.RED.getIndex());
+    [javac]                                                               ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:247: error: cannot find symbol
+    [javac]             styleCabecera.setFillPattern(CellStyle.SOLID_FOREGROUND);
+    [javac]                                          ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:248: error: cannot find symbol
+    [javac]             XSSFFont fontCabecera = wb.createFont();
+    [javac]             ^
+    [javac]   symbol:   class XSSFFont
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:251: error: cannot find symbol
+    [javac]             fontCabecera.setBoldweight(Font.BOLDWEIGHT_BOLD);
+    [javac]                                        ^
+    [javac]   symbol:   variable Font
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:252: error: package IndexedColors does not exist
+    [javac]             fontCabecera.setColor(IndexedColors.BLACK.getIndex());
+    [javac]                                                ^
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:254: error: cannot find symbol
+    [javac]             styleCabecera.setBorderBottom(CellStyle.BORDER_THICK);
+    [javac]                                           ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:255: error: cannot find symbol
+    [javac]             styleCabecera.setBorderLeft(CellStyle.BORDER_THICK);
+    [javac]                                         ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:256: error: cannot find symbol
+    [javac]             styleCabecera.setBorderRight(CellStyle.BORDER_THICK);
+    [javac]                                          ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:257: error: cannot find symbol
+    [javac]             styleCabecera.setBorderTop(CellStyle.BORDER_THICK);
+    [javac]                                        ^
+    [javac]   symbol:   variable CellStyle
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaDistribuidorProvinciaImpl.java:259: error: cannot find symbol
+    [javac]             XSSFCell HeaderCell0 = headerRow.createCell(0);
+    [javac]             ^
+    [javac]   symbol:   class XSSFCell
+    [javac]   location: class CargaDistribuidorProvinciaImpl
+    [javac] Note: /home/plataforma/plausr/tmp/redchannel_20200916094117_HID1/redchannel/UneBatchProcess/project/UneBatchProcess/src/es/indra/negocio/impl/CargaCVMImpl.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 100 errors
+    [javac] 1 warning
+2020/09/16 09:41:39 ERROR  
+2020/09/16 09:41:39 ERROR   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2020/09/16 09:41:39 ERROR   !!                                                               
+2020/09/16 09:41:39 ERROR   !!                                                               
+2020/09/16 09:41:39 ERROR   !!         ERROR while running the compilation with ant         
+2020/09/16 09:41:39 ERROR   !!                                                               
+2020/09/16 09:41:39 ERROR   !!                                                               
+2020/09/16 09:41:39 ERROR   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2020/09/16 09:41:39 ERROR  
